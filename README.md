@@ -89,19 +89,6 @@ The cookie is marked Secure, so use the HTTPS launch URL. In production, protect
 - Record and upload your own-voice demonstration video; add its unlisted link here.
 - Complete the student name and student number fields required by your submission portal.
 
-## Final pre-submission verification checklist
-
-- [ ] Compare `docs/RaceDayDB.sql` and `docs/RaceDay_ERD.png` with the approved Part 1 submission before running the script.
-- [ ] Back up any existing `RaceDayDB` before executing the SQL file because it drops/recreates tables.
-- [ ] Verify SQL Server contains exactly the seven core tables: `UserAccount`, `OrganiserProfile`, `ParticipantProfile`, `Event`, `Category`, `Enrollment`, `Result`.
-- [ ] Confirm `Enrollment(EventId, CategoryId)` references `Category(EventId, CategoryId)` and `Result.EnrollmentId` is unique.
-- [ ] Verify the connection string matches the SQL Server instance on the machine running the API.
-- [ ] Run `dotnet restore`, `dotnet build`, and `dotnet test`; record the actual results (do not claim success unless commands pass).
-- [ ] In Swagger, test public access, valid login, invalid login, inactive-account rejection, organiser-only operations, participant-only operations, ownership checks, capacity checks and duplicate enrolment/result conflicts.
-- [ ] Test the organiser dashboard routes: `GET /api/organiser/events` and `GET /api/organiser/events/{id}/summary`.
-- [ ] Push to your own GitHub repository, make at least 20 meaningful commits, and confirm the Actions workflow passes on GitHub.
-- [ ] Add a genuine screenshot of the green workflow and your unlisted demonstration video link to this README before submission.
-
 ACTION (WORKFLOW SCREENSHOT)
 <img width="1763" height="1037" alt="image" src="https://github.com/user-attachments/assets/aeffb3b6-95b9-4078-ab7d-8cc678c51f01" />
 
