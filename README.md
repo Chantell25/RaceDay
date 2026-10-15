@@ -1,4 +1,4 @@
-# RaceDay — Part 2: RESTful API Development.
+# RaceDay — Part 2: RESTful API Development
 
 **Module:** PROG6212 Programming 2B
 **Continuation of:** RaceDay Part 1 (ERD, endpoint plan and `RaceDayDB.sql`)  
@@ -101,5 +101,7 @@ The cookie is marked Secure, so use the HTTPS launch URL. In production, protect
 - [ ] Test the organiser dashboard routes: `GET /api/organiser/events` and `GET /api/organiser/events/{id}/summary`.
 - [ ] Push to your own GitHub repository, make at least 20 meaningful commits, and confirm the Actions workflow passes on GitHub.
 - [ ] Add a genuine screenshot of the green workflow and your unlisted demonstration video link to this README before submission.
+
+ACTION (WORKFLOW SCREENSHOT)
 
 **Important:** This archive is a project starter/continuation, not a guarantee of a particular mark. The .NET SDK and SQL Server environment must be available to compile, execute and verify it. Your lecturer's rubric and approved Part 1 artefacts remain the final authority.
