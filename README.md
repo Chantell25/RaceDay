@@ -103,5 +103,15 @@ The cookie is marked Secure, so use the HTTPS launch URL. In production, protect
 - [ ] Add a genuine screenshot of the green workflow and your unlisted demonstration video link to this README before submission.
 
 ACTION (WORKFLOW SCREENSHOT)
+<img width="1763" height="1037" alt="image" src="https://github.com/user-attachments/assets/aeffb3b6-95b9-4078-ab7d-8cc678c51f01" />
+
+GITHUB LINK AND YOUTUBE LINK 
+Youtube-https://youtu.be/ckjFdYnmUT8?feature=shared
+Github-https://github.com/Chantell25/RaceDay
+
+
+
+
+
 
 **Important:** This archive is a project starter/continuation, not a guarantee of a particular mark. The .NET SDK and SQL Server environment must be available to compile, execute and verify it. Your lecturer's rubric and approved Part 1 artefacts remain the final authority.
