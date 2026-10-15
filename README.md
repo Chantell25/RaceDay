@@ -1,6 +1,6 @@
 # RaceDay — Part 2: RESTful API Development
 
-**Module:** PROG6212 Programming 2B
+
 **Continuation of:** RaceDay Part 1 (ERD, endpoint plan and `RaceDayDB.sql`)  
 **Technology:** C#, ASP.NET Core Web API, Entity Framework Core 8, SQL Server, Swagger, xUnit, GitHub Actions.
 
