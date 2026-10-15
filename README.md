@@ -4,7 +4,7 @@
 **Continuation of:** RaceDay Part 1 (ERD, endpoint plan and `RaceDayDB.sql`)  
 **Technology:** C#, ASP.NET Core Web API, Entity Framework Core 8, SQL Server, Swagger, xUnit, GitHub Actions.
 
-
+## Important schema continuity
 This project maps to the seven Part 1 SQL Server tables: `UserAccount`, `OrganiserProfile`, `ParticipantProfile`, `Event`, `Category`, `Enrollment`, and `Result`. The API uses those existing names and keys; it does not introduce a separate `AppUser`/`EventCategory` database model. Use the exact Part 1 SQL script at `docs/RaceDayDB.sql`.
 
 ## Open and run correctly in Visual Studio (important)
