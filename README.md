@@ -1,4 +1,3 @@
-# RaceDay — Part 2: RESTful API Development
 
 **Module:** PROG6212 Programming 2B
 **Continuation of:** RaceDay Part 1 (ERD, endpoint plan and `RaceDayDB.sql`)  
